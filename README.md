@@ -1,2 +1,23 @@
 # Ethereum-Pioneering-the-Decentralised-World-Computer
-An essay about Ethereum
+
+It was a breakthrough in decentralized technology that allowed for the record of computer programs, so-called smart contracts, onto its blockchain ledger. Through this platform, Ethereum built immutable and auditable logic accessible across the globe, thereby playing the foundational role in decentralized ecosystems with its support to an enormously vast array of applications - finance to governance.
+
+Its birth date lies in its seminal white paper: "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform." This established foundational principles for Ethereum design, though the technical detail of the platform has much developed from those early days. It nonetheless remains a landmark point that marks the beginning of the journey of Ethereum, transforming itself into a revolutionary technology.
+
+Central to the functionality of Ethereum is the concept of the Ethereum World Computer. This is a term that refers to the network of interconnected blockchains formed by nodes across the globe. Each node contains a copy of the blockchain ledger and all deployed smart contracts. If a smart contract is invoked, the request is broadcast to all nodes, which individually execute the function of the contract given its input. The outcome is then verified collectively so that consistency and reliability are assured. Then, the transactions and their corresponding outcomes are recorded on the blockchain ledger, thereby allowing the network to simulate the operations of a single, unified computer.
+
+Ethereum is a transaction-based state machine. Users in the network can make transactions that result in modifications to the state of the blockchain. Updates to Ethereum's state result from executing smart contract code, with valid state transitions being computed according to the Ethereum protocol. This capability underpins the versatility of Ethereum to support a wide range of use cases.
+
+The Ethereum Virtual Machine (EVM) is the computational engine that drives Ethereum’s functionality. Before executing a transaction, the EVM is initialized with the necessary data. This initialization involves loading the smart contract’s bytecode into the ROM, setting the program counter to zero, and loading the contract’s state into storage. Additionally, memory is initialized to zero, and the transaction’s sender prepays an amount of gas, Ethereum’s native mechanism for metering computational effort.
+
+As the EVM executes a transaction, the available gas is gradually spent according to the computational expenditure of the operations carried out. If the gas has been exhausted before the transaction is completed, then that transaction is stopped so as to prevent runaway computations. Successful execution returns any remaining gas back to the sender and modifies the world state according to the changes the transaction has applied.
+
+A defining characteristic of the EVM is a pre-defined instruction set, which only supports deterministic operations. Therefore, this design ensures the predictability and verifiability of the execution of smart contracts. Additionally, the EVM operates within an isolated environment, which means it does not allow direct access to the external networks, data, or processes. Isolation enhances security and reliability, thus mitigating risks due to external dependencies.
+
+The fee-meter mechanism within the EVM highlights its importance on efficiency and program terminability. Every transaction attracts a fee proportional to the computational effort required, paid in Ether, the native currency of Ethereum. This system, therefore, encourages resource-efficient programming, and abuse is prevented as excessive computational demands are charged with a cost. Moreover, in case the cost of a transaction exceeds the pre-paid fee, the execution of the transaction is stopped, preventing infinite loops and other potentially disruptive situations within the network.
+
+Through its sophisticated design, EVM ensures the essential properties of maintaining a decentralized world computer. Determinism, isolation, and terminability support trustless computation from which an environment conducive for calculation would emerge. Based on such functionality, Ethereum is advancing its leading position in innovation; in fact, various sectors benefit from DApps derived through its platform.
+
+In conclusion, Ethereum is the most groundbreaking advancement in blockchain technology. Its ability to host and execute smart contracts on a global, decentralized network represents the potential of distributed ledger systems. By providing a robust platform for immutable and auditable computation, Ethereum has set the stage for a new era of innovation, transforming industries and redefining the possibilities of decentralized technology.
+
+
